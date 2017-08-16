@@ -20,3 +20,11 @@ The SNAPDatasets.jl package is licensed under the MIT "Expat" License:
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 > 
+
+The graphs represented in this package are adapted from the 
+[Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/index.html):
+
+- Author: Jure Leskovec and Andrej Krevl
+- Title: SNAP Datasets: Stanford Large Network Dataset Collection
+- Published: http://snap.stanford.edu/data
+- Date: June 2014
