@@ -1,5 +1,5 @@
 using SNAPDatasets
-using Base.Test
+using Test
 
 @testset "SNAP Datasets" begin
   @test @inferred "$(loadsnap(:as_caida))" == "{26475, 53381} undirected simple Int64 graph"

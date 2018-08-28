@@ -5,7 +5,8 @@ os:
 #  - osx
 
 julia:
- - 0.6
+ - 0.7
+ - 1.0
 # - nightly
 
 #matrix:
@@ -18,7 +19,7 @@ notifications:
 # uncomment the following lines to override the default test script
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
-  - julia -e 'Pkg.clone(pwd()); Pkg.build("SNAPDatasets"); Pkg.test("SNAPDatasets"; coverage=true)'
+  - julia -e 'using Pkg; Pkg.clone(pwd()); Pkg.build("SNAPDatasets"); Pkg.test("SNAPDatasets"; coverage=true)'
 
 after_success:
-    - julia -e 'cd(Pkg.dir("SNAPDatasets")); Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())'
+    - julia -e 'using Pkg; cd(Pkg.dir("SNAPDatasets")); Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())'
