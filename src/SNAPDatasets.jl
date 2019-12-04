@@ -17,7 +17,8 @@ snap_graphs = Dict{Symbol, String}(
 	:facebook_combined	=> "facebook-combined/facebook-combined.jlg",
 	:patent_cit_us		=> "patent_cit/patent-cit-us.jlg",
 	:soc_slashdot0902_d	=> "soc-slashdot0902/soc-slashdot0902-directed.jlg",
-	:soc_slashdot0902_u	=> "soc-slashdot0902/soc-slashdot0902-undirected.jlg"
+	:soc_slashdot0902_u	=> "soc-slashdot0902/soc-slashdot0902-undirected.jlg",
+	:soc_sign_bitcoinotc => "soc-sign-bitcoinotc/soc-sign-bitcoinotc.lg"
 )
 
 
