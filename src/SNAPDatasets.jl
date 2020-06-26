@@ -5,7 +5,7 @@ using LightGraphs
 const SNAPDIR = joinpath(@__DIR__,"..","data")
 
 snap_graphs = Dict{Symbol, String}(
-      	:amazon0302             => "amazon0302/amazon0302.jlg",
+	:amazon0302             => "amazon0302/amazon0302.jlg",
 	:arxiv_cit_hep_th	=> "arxiv_cit/arxiv-cit-hep-th.jlg",
 	:arxiv_cit_hep_ph	=> "arxiv_cit/arxiv-cit-hep-ph.jlg",
 	:as_caida		=> "as-caida/as-caida20071105.jlg",
