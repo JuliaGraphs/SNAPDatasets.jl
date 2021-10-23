@@ -1,6 +1,6 @@
 module SNAPDatasets
 
-using LightGraphs
+using Graphs
 
 const SNAPDIR = joinpath(@__DIR__,"..","data")
 
