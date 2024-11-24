@@ -1,14 +1,14 @@
 name = "SNAPDatasets"
 uuid = "fc66bc1b-447b-53fc-8f09-bc9cfb0b0c10"
 authors = ["JuliaGraphs"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 [compat]
-Graphs = "1.4"
-julia = "1"
+Graphs = "1.6"
+julia = "1.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
